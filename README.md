@@ -1,9 +1,8 @@
 ﻿@[TOC](在WEB端部署YOLOv5目标检测（Flask+VUE）)
 
 # 本文禁止转载，违者必究！
-# 1. 先看效果：
 
-[video(video-V4TLtEAv-1611912124355)(type-bilibili)(url-https://player.bilibili.com/player.html?aid=756435153)(image-https://ss.csdn.net/p?http://i2.hdslb.com/bfs/archive/618341b9633db3b44f8d045204d30956f4766911.jpg)(title-在WEB端部署YOLOv5目标检测（Flask+VUE）)]
+# 1. 先看效果：
 
 视频链接：
 
@@ -12,12 +11,14 @@
 最终效果：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210129172359202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkzNjg4OQ==,size_16,color_FFFFFF,t_70)
+
 源码已经上传 Github：
 
 [https://github.com/Sharpiless/Yolov5-Flask-VUE](https://github.com/Sharpiless/Yolov5-Flask-VUE)
 
 
 # 2. YOLOv5模型训练：
+
 训练自己的数据集可以看我这篇博客：
 
 [【小白CV】手把手教你用YOLOv5训练自己的数据集（从Windows环境配置到模型部署）](https://blog.csdn.net/weixin_44936889/article/details/110661862)
@@ -25,6 +26,7 @@
 这里演示的话我就用官方训练好的 yolov5m.pt 模型。
 
 # 3. YOLOv5模型预测：
+
 预测接口：
 
 ```python
@@ -294,8 +296,11 @@ npm run serve
 ```
 
 然后在浏览器打开localhost即可：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210129172359202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkzNjg4OQ==,size_16,color_FFFFFF,t_70)
 
 # 关注我的公众号：
+
 感兴趣的同学关注我的公众号——可达鸭的深度学习教程：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210127153004430.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkzNjg4OQ==,size_16,color_FFFFFF,t_70)
