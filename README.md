@@ -1,3 +1,10 @@
+### yolov5 6.0版本
+由于原版程序只支持 yolov5 较低版本，本人修改相关代码，使其支持 yolov5 6.0 版本，欢迎测试
+
+[https://github.com/qiaoyukeji/Yolov5-Flask-VUE/tree/yolov5_6.0](https://github.com/qiaoyukeji/Yolov5-Flask-VUE/tree/yolov5_6.0)
+
+简易博客教程如下：[https://blog.gitnote.cn/post/yolov5_web_reco/](https://blog.gitnote.cn/post/yolov5_web_reco/)
+
 # 1. 效果：
 
 视频链接：
