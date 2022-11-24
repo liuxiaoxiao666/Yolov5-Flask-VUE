@@ -368,7 +368,12 @@ def strip_optimizer(f='weights/best.pt', s=''):
     x['optimizer'] = None
     x['training_results'] = None
     x['epoch'] = -1
-    x['model'].half()  # to FP16
+
+    # 2022-11-24 yolo5 v6.0修改
+    # x['model'].half()  # to FP16
+    x['model'].float()  # to FP16
+    # 2022-11-24 yolo5 v6.0修改
+
     for p in x['model'].parameters():
         p.requires_grad = False
     torch.save(x, s or f)

@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+   back:
+      image: docker_opencv_torch:v3
+      volumes:
+        - './back-end:/app'
+        - './back-end/weights:/app/weights'
+      command: /bin/bash -c "cd /app && python app.py"
+      ports:
+         - "5003:5003"
