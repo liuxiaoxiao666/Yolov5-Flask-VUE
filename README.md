@@ -1,13 +1,15 @@
 ### yolov5 6.0版本
-由于原版程序只支持 yolov5 较低版本，本人修改相关代码，使其支持 yolov5 6.0 版本，欢迎测试
+由于原版程序只支持 yolov5 较低版本，本人修改相关代码，使其支持 yolov5 6.0 版本，欢迎测试。
 
-经过测试，yolov5 6.0 版本官方 yolov5s.pt 模型，==能够正常使用==，其他版本模型未测试
+经过测试，yolov5 6.0 版本官方 yolov5s.pt 模型，==能够正常使用==，其他版本模型未测试。
 
-修改了 common.py 文件，yolo.py 等文件，使其支持 yolov5 6.0 版本
+修改了 common.py 文件，yolo.py 等文件，使其支持 yolov5 6.0 版本。
 
-可以直接使用 `docker-compose up` 命令启动后端程序，然后访问 `ip:5003` 进行测试，或者启动前台进行测试
+可以直接使用 `docker-compose up` 命令启动后端程序，然后访问 `ip:5003` 进行测试，或者启动前台进行测试。
 
-权重存放在 `back-end/wights` 目录下，权重选择在 `back-end/processor/AIDetector_pytorch.py` 文件中第21行进行修改
+权重存放在 `back-end/wights` 目录下，
+权重选择在 `back-end/processor/AIDetector_pytorch.py` 文件中第21行进行修改。
+
 ---
 
 
