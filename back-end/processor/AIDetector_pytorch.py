@@ -28,6 +28,7 @@ class Detector(object):
         # model.half()
         model.float()
         # 2022-11-24 yolov5 6.0 修改
+        
         # torch.save(model, 'test.pt')
         self.m = model
         self.names = model.module.names if hasattr(
